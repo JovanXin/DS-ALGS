@@ -33,6 +33,15 @@ class LinkedList:
         self.length += 1
 
     def get_by_index(self, index):
+        """
+        Returns the node of the LL at the specified index.
+
+        Args:
+            index (int): The index of the node to return
+
+        Returns:
+            LinkedListNode
+        """
         if index < 0 or index >= self.length:
             return "accident"
 
