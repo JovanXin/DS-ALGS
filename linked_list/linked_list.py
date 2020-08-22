@@ -1,3 +1,11 @@
+"""
+TODO: Implement the following methods for the LinkedList class
+        ->  Pop off head or tail of the LL []
+        ->  Delete at a specified index []
+        ->  Fetch value at a certain index []
+"""
+
+
 class LinkedList:
     def __init__(self):
         self.head = None
